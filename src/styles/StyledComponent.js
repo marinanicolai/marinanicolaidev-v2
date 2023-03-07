@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { motion } from "framer-motion";
+import { motion } from "framer-motion/dist/framer-motion";
 
 const StyledComponent = styled(motion.nav)`
   ${({ theme }) => theme.mixins.flexBetween};
